@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Senhas</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        h2 { margin-top: 30px; }
+        ul { list-style: none; padding: 0; }
+        li { margin: 5px 0; }
+        button {
+            padding: 10px 20px;
+            background-color: #b872ae;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover { background-color: #005fa3; }
+    </style>
+</head>
+
+<body>
+     <center>
+        <h1 style="color: #b872ae;">🧾 Sistema de Atendimento</h1>
+
+        <hr>
+
+        <a href="/gerar"><button> Gerar Nova Senha </button></a>
+
+        <h2 style="color: #b872ae;">🔜 Próximas Senhas a Serem Chamadas</h2>
+        <ul>
+            {% for senha in proximas %}
+                <li>{{ senha }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2>📋 Fila Comum</h2>
+        <ul>
+            {% for senha in fila_comum %}
+                <li>{{ senha }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2>👵 Fila Prioritária</h2>
+        <ul>
+            {% for senha in fila_prioritaria %}
+                <li>{{ senha }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2>🏢 Postos</h2>
+        <ul>
+            {% for msg in postos %}
+                <li>{{ msg }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2>📦 Senhas Atendidas</h2>
+        <ul>
+            {% for senha in atendidos %}
+                <li>{{ senha }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2>❌ Total de Desistências</h2>
+        <p>{{ desistencias }}</p>
+
+        <a href="/encerrar"><button>Encerrar Sistema</button></a>
+
+    </center>
+</body>
+</html>

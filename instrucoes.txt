@@ -1,0 +1,6 @@
+Para rodar o código siga os passos:
+
+1: instalar o Flask pelo CMD com o comando "pip install flask"
+2: executar "python app.py"
+3: Acesse no navegador: http://127.0.0.1:5000
+

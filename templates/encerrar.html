@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Encerrado</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        h1 { color: green; }
+        ul { list-style: none; padding: 0; }
+        li { margin: 5px 0; }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1 style="color: #b872ae;">✅ Sistema de Atendimento Encerrado</h1>
+
+        <hr>
+
+        <h2>📦 Senhas Atendidas </h2>
+        <ul>
+            {% for senha in atendidos %}
+                <li>✔️ {{ senha }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2>❌ Total de Desistências</h2>
+        <p>{{ desistencias }}</p>
+    </center>
+</body>
+</html>
