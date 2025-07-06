@@ -4,11 +4,17 @@ Este projeto é uma aplicação para um sistema de atendimento com geração e g
 
 🔧 Funcionalidades
 • Geração de senhas com prioridade aleatória (normal ou prioritária)
+
 • Atendimento distribuído entre 5 postos (3 ativos e 2 inativos)
+
 • Alternância de atendimento com lógica 2N:1P (duas senhas normais para uma prioritária)
+
 • Registro de atendimentos em uma pilha (ordem reversa: último atendido no topo)
+
 • Simulação de desistência de clientes com chance de 30%
+
 • Visualização das duas próximas senhas a serem chamadas
+
 • Encerramento do sistema com relatório de senhas atendidas e desistências
 
 💻 Tecnologias Utilizadas
