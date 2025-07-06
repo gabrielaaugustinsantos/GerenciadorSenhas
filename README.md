@@ -1,5 +1,5 @@
 📋 Sistema de Gerenciamento de Senhas de Atendimento
-Este projeto simula um sistema de atendimento com geração e gerenciamento de senhas (normais e prioritárias). Ele simula o funcionamento de uma fila de atendimento em tempo real, distribuindo senhas entre postos ativos e registrando o histórico de atendimentos e desistências. A aplicação foi desenvolvida com foco em simular o comportamento real de um sistema de filas em ambientes como bancos ou clínicas de saúde.
+Este projeto é uma aplicação para um sistema de atendimento com geração e gerenciamento de senhas (normais e prioritárias). Ele simula o funcionamento de uma fila de atendimento em tempo real, distribuindo senhas entre postos ativos e registrando o histórico de atendimentos e desistências. A aplicação foi desenvolvida com foco em simular o comportamento real de um sistema de filas em ambientes como bancos ou clínicas de saúde.
 
 🔧 Funcionalidades
 • Geração de senhas com prioridade aleatória (normal ou prioritária)
