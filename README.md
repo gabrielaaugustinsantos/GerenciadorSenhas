@@ -15,3 +15,9 @@ Este projeto é uma aplicação para um sistema de atendimento com geração e g
 • Flask (Framework web para criação das rotas e renderização das páginas HTML)
 • HTML 
 • collections.deque (Para o gerenciamento eficiente das filas)
+
+![image](https://github.com/user-attachments/assets/74d49b68-0518-4716-b951-4a341d2f41b0)
+
+![image](https://github.com/user-attachments/assets/3ed099ee-7203-48ec-9266-325a849a09a2)
+
+
